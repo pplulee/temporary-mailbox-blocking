@@ -25,15 +25,14 @@
     "local_allow2.txt"
   ],
   "allowURL": [
-    "http://xxxxx1.txt",
-    "http://xxxxx2.txt"
+    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/allowDomains.txt"
   ],
   "denyFile": [
     "local_block1.txt",
     "local_block2.txt"
   ],
   "denyURL": [
-    "https://github.com/amieiro/disposable-email-domains"
+    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/denyDomains.txt"
   ],
   "outputTXT": {
     "allow": "allow.txt",
