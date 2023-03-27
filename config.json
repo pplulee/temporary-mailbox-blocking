@@ -1,0 +1,17 @@
+{
+  "allowFile": [],
+  "allowURL": ["https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/allowDomains.txt"],
+  "denyFile": ["block.txt"],
+  "denyURL": [
+    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/denyDomains.txt"
+  ],
+  "outputTXT": {
+    "allow": "allow.txt",
+    "deny": "deny.txt"
+  },
+  "outputJson": {
+    "allow": "allow.json",
+    "deny": "deny.json"
+  },
+  "outputAdGuard": "adguard.txt"
+}
