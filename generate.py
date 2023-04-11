@@ -41,6 +41,22 @@ def get_rule_from_file(filename):
         return result
 
 
+def insert(line, dest):
+    global allow_list
+    global deny_list
+    if dest not in ["allow", "deny"]:
+        return False
+    if line[0] in eval(f"{dest}_list").keys():
+        if line not in eval(f"{dest}_list")[line[0]]:
+            eval(f"{dest}_list")[line[0]].append(line)
+            return True
+        else:
+            return False
+    else:
+        eval(f"{dest}_list")[line[0]] = [line]
+        return True
+
+
 start_time = time.time()
 try:
     config_file = open('config.json', 'r', encoding='utf-8')
@@ -51,26 +67,30 @@ else:
     config = json.load(config_file)
     config_file.close()
 
-allow_list = []
-deny_list = []
+allow_list = {}
+deny_list = {}
 
 for url in config["allowURL"]:
     result = get_rule_from_url(url)
     if result is not None:
         for line in result:
-            line = process_line(line)
-            if line and line not in allow_list:
-                allow_list.append(line)
+            c_line = process_line(line)
+            if not c_line:
+                continue
+            if insert(process_line(line), "allow"):
+                continue
+            else:
+                print(f"Duplicate: {line}\nFile: {url}")
 
 for file in config['allowFile']:
     result = get_rule_from_file(file)
     if result is not None:
         for line in result:
-            line = process_line(line)
-            if not line:
+            c_line = process_line(line)
+            if not c_line:
                 continue
-            if line not in allow_list:
-                allow_list.append(line)
+            if insert(process_line(line), "allow"):
+                continue
             else:
                 print(f"Duplicate: {line}\nFile: {file}")
 
@@ -78,29 +98,46 @@ for url in config["denyURL"]:
     result = get_rule_from_url(url)
     if result is not None:
         for line in result:
-            line = process_line(line)
-            if line and line not in deny_list:
-                deny_list.append(line)
+            c_line = process_line(line)
+            if not c_line:
+                continue
+            if insert(process_line(line), "deny"):
+                continue
+            else:
+                print(f"Duplicate: {line}\nFile: {url}")
 
 for file in config['denyFile']:
     result = get_rule_from_file(file)
     if result is not None:
         for line in result:
-            line = process_line(line)
-            if not line:
+            c_line = process_line(line)
+            if not c_line:
                 continue
-            if line not in deny_list:
-                deny_list.append(line)
+            if insert(process_line(line), "deny"):
+                continue
             else:
                 print(f"Duplicate: {line}\nFile: {file}")
 
-# Sort
-allow_list.sort()
-deny_list.sort()
+# Migrate dict data to list
+allow_data = []
+allow_list_keys = sorted(allow_list.keys())
+deny_data = []
+deny_list_keys = sorted(deny_list.keys())
+
+for key in allow_list_keys:
+    c_list = allow_list[key]
+    c_list.sort()
+    allow_data.extend(c_list)
+for key in deny_list_keys:
+    c_list = deny_list[key]
+    c_list.sort()
+    deny_data.extend(c_list)
+del allow_list
+del deny_list
 
 # Print stat
-print(f"{len(allow_list)} allow rules")
-print(f"{len(deny_list)} deny rules")
+print(f"{len(allow_data)} allow rules")
+print(f"{len(deny_data)} deny rules")
 
 # Output to file
 
@@ -109,9 +146,9 @@ if "outputTXT" in config.keys():
     deny_file = open(config["outputTXT"]["deny"], 'w', encoding='utf-8')
     print(f"Output allow list to {config['outputTXT']['allow']}")
     print(f"Output deny list to {config['outputTXT']['deny']}")
-    for line in allow_list:
+    for line in allow_data:
         allow_file.write(line + '\n')
-    for line in deny_list:
+    for line in deny_data:
         deny_file.write(line + '\n')
     allow_file.close()
     deny_file.close()
@@ -120,16 +157,16 @@ if "outputJson" in config.keys():
     deny_file = open(config["outputJson"]["deny"], 'w', encoding='utf-8')
     print(f"Output allow list to {config['outputJson']['allow']}")
     print(f"Output deny list to {config['outputJson']['deny']}")
-    json.dump(allow_list, allow_file)
-    json.dump(deny_list, deny_file)
+    json.dump(allow_data, allow_file)
+    json.dump(deny_data, deny_file)
     allow_file.close()
     deny_file.close()
 if "outputAdGuard" in config.keys():
     output_file = open(config["outputAdGuard"], 'w', encoding='utf-8')
     print(f"Output AdGuard rules to {config['outputAdGuard']}")
-    for line in allow_list:
+    for line in allow_data:
         output_file.write(f"@@||{line}^\n")
-    for line in deny_list:
+    for line in deny_data:
         output_file.write(f"||{line}^\n")
     output_file.close()
 end_time = time.time()
