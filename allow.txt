@@ -292,6 +292,7 @@ magicmail.co.za
 mail-central.com
 mail-me.com
 mail-page.com
+mail-tester.com
 mail.com
 mail.ru
 mail2world.com

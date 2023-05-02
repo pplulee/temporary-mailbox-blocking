@@ -1,7 +1,7 @@
 {
-  "allowFile": [],
+  "allowFile": ["allow_list.txt"],
   "allowURL": ["https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/allowDomains.txt"],
-  "denyFile": ["block.txt"],
+  "denyFile": ["block_list.txt"],
   "denyURL": [
     "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/denyDomains.txt"
   ],
