@@ -234,6 +234,7 @@ hush.com
 hushmail.com
 hushmail.me
 i.ua
+icam.fr
 icloud.com
 ig.com.br
 imap-mail.com
