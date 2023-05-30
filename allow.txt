@@ -86,6 +86,7 @@ chello.nl
 chemist.com
 chinamail.com
 clerk.com
+cloudflare.com
 club-internet.fr
 clubmember.org
 cluemail.com
