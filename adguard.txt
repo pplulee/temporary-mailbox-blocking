@@ -15502,9 +15502,9 @@
 ||andfreekt.ga^
 ||andhani.ml^
 ||andia.services^
+||andiamoainnovare.eu^
 ||andinamotors.co^
 ||andirinotel.xyz^
-||andlos77.shop^
 ||andlume.com^
 ||andmail.site^
 ||andmeatballs.com^
@@ -18150,7 +18150,6 @@
 ||assaf2003.site^
 ||assaf7720250025.site^
 ||assafassaf700.site^
-||assafo.shop^
 ||assafsh1778.shop^
 ||assafshar111.shop^
 ||assalamualayka.net^
@@ -34521,7 +34520,6 @@
 ||cimaclub.social^
 ||cimaclub.world^
 ||cimaclub.zone^
-||cimagupy.online^
 ||cimas.info^
 ||cimkocar-lor.ru^
 ||cimsimm.ga^
@@ -44853,7 +44851,6 @@
 ||doctxyle.ml^
 ||doctxyle.tk^
 ||docu.me^
-||document.body.style.visibility^
 ||document.onreadystatechange^
 ||document.title^
 ||documentingyellowstone.com^
@@ -45415,7 +45412,6 @@
 ||dorywalski.pl^
 ||dosait.ru^
 ||dosan12.com^
-||dosas54.shop^
 ||doscobal.com^
 ||dosirakm.com^
 ||doska-brus-spb.ru^
@@ -54525,7 +54521,6 @@
 ||fgdg.de^
 ||fgewrq.eu^
 ||fgey.com^
-||fgfdgfd.tech^
 ||fgfg999.com^
 ||fgfpnd.rest^
 ||fgfstore.info^
@@ -63153,6 +63148,7 @@
 ||gov-mail.com^
 ||gov-ny.site^
 ||gov-suppgrnt.com^
+||gov.cn^
 ||gov.en.com^
 ||gov.rebate-grant.com^
 ||govacom.com^
@@ -72450,10 +72446,6 @@
 ||imfilons.ru^
 ||imfriendly.org^
 ||imfsiteamenities.com^
-||img.src^
-||img.style.height^
-||img.style.visibility^
-||img.style.width^
 ||imga.pl^
 ||imgcdn.us^
 ||imgjar.com^
@@ -76109,7 +76101,6 @@
 ||jaspertab.com^
 ||jasperwrite.com^
 ||jasperwrite.xyz^
-||jastrebofigor.site^
 ||jasxft.fun^
 ||jateamssign.cf^
 ||jateamssign.ga^
@@ -81822,7 +81813,6 @@
 ||kpmnw1.site^
 ||kpnaward.com^
 ||kpnmail.org^
-||kpoijoihhhh.online^
 ||kpoker88.biz^
 ||kpolikaret.ga^
 ||kpooa.com^
@@ -83663,7 +83653,6 @@
 ||lawbmydi.tk^
 ||lawbrsoli.ru^
 ||lawcenter-1.ru^
-||lawchacon.com^
 ||lawdeskltd.com^
 ||laweemx.ga^
 ||lawenforcementcanada.ca^
@@ -84901,7 +84890,6 @@
 ||liadreamva.gq^
 ||liadreamva.ml^
 ||liadreamva.tk^
-||liajlo.com^
 ||lialaise.tk^
 ||lialc.com^
 ||liam280.store^
@@ -86628,9 +86616,6 @@
 ||locateme10.com^
 ||locatesolar.com^
 ||locating.page^
-||location.host^
-||location.pathname^
-||location.search^
 ||locationans.ru^
 ||locationlocationlocation.eu^
 ||locationlose.com^
@@ -88936,7 +88921,6 @@
 ||magikwarszawa.pl^
 ||magilaclight.ru^
 ||magim.be^
-||magimail.xyz^
 ||magiushosting.site^
 ||maglienflpocoprezzo.com^
 ||maglo.sk^
@@ -96106,7 +96090,6 @@
 ||monadium.net^
 ||monadress.online^
 ||monagame.club^
-||monaito.website^
 ||monalisa-galway.com^
 ||monalisadublin12.com^
 ||monalisatouchmarketing.com^
@@ -106268,7 +106251,6 @@
 ||opendbs.org^
 ||opende.de^
 ||opendecoder.com^
-||opendigitalmail.net^
 ||opendns.ro^
 ||openeats.org^
 ||openedtechfestival.info^
@@ -107451,6 +107433,7 @@
 ||outlyca.gq^
 ||outlyca.ml^
 ||outlyca.tk^
+||outmail.online^
 ||outmail.win^
 ||outmail4u.ml^
 ||outmix.com^
@@ -123195,7 +123178,6 @@
 ||rwc.tw^
 ||rwdd.com^
 ||rwerghjoyr.cloud^
-||rwesfd2.shop^
 ||rwgfeis.com^
 ||rwhhbpwfcrp6.cf^
 ||rwhhbpwfcrp6.ga^
@@ -126267,7 +126249,6 @@
 ||selamsfjntvb36614.cf^
 ||selamsfjntvb42336.ml^
 ||selamtatube.com^
-||selandor.cloud^
 ||selang3.xyz^
 ||selang5.xyz^
 ||selasa.me^
@@ -131052,6 +131033,7 @@
 ||solviagens.store^
 ||somacolorado.com^
 ||somaderm.health^
+||somail.store^
 ||somalipress.com^
 ||somans.site^
 ||somardiz.com^
@@ -133112,10 +133094,6 @@
 ||statsontime.com^
 ||stattech.info^
 ||statuaxkwo.space^
-||status.adult^
-||status.blocked^
-||status.faillisted^
-||status.needsreview^
 ||status.vote^
 ||statusa.shop^
 ||statusers.com^
@@ -134924,6 +134902,7 @@
 ||supportgm.com^
 ||supporthpprinters.com^
 ||supporticult.site^
+||supportlabs.click^
 ||supportly.click^
 ||supportpatriotflexgoods.com^
 ||supportteam.click^
@@ -139427,7 +139406,6 @@
 ||theskymail.com^
 ||theslatch.com^
 ||theslave.network^
-||thesmurfssociety.link^
 ||thesnapmom.org^
 ||thesneakerswarehouse.com^
 ||thesoapmine.com^
@@ -143458,6 +143436,7 @@
 ||trydeal.com^
 ||trydishlist.com^
 ||tryeverydrop.com^
+||tryholiday.click^
 ||tryinsured.com^
 ||tryjx2s.com^
 ||tryluminousglow.com^
@@ -143698,7 +143677,6 @@
 ||tttttyrewrw.xyz^
 ||tttv1.com^
 ||ttuckbokee.com^
-||ttumvy5.tech^
 ||tturk.com^
 ||ttusrgpdfs.pl^
 ||ttweetlounget.site^
@@ -153811,7 +153789,6 @@
 ||window.dataLayer^
 ||window.livewire^
 ||window.location^
-||window.location.href^
 ||window.onload^
 ||window.park^
 ||windowconfigurator.com^
@@ -156280,8 +156257,6 @@
 ||xhomasx.com^
 ||xhouse.xyz^
 ||xhphtfvoit.ga^
-||xhr.onreadystatechange^
-||xhr.status^
 ||xhr10.com^
 ||xhrmtujovv.ga^
 ||xhs.bet^
