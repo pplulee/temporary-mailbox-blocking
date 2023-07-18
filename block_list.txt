@@ -1,4 +1,5 @@
 admin.com
+gov.cn
 *.cim
 *.con
 *.cin
