@@ -6,12 +6,10 @@ gov.cn
 ihotmails.com
 suppressible.com
 hacker9.org
-instaddr.win
 snapmail.cc
 daimashili.com
 enoiv.com
 youxiang.dev
-nekosan.uk
 painreliefsock.com
 suiyongsuiqi.com
 tankmail.cn
@@ -24,5 +22,3 @@ sonjj.edu.pl
 tsutsu.icu
 geecloud.com
 codjobs.com
-weizixu.com
-zurbex.com
