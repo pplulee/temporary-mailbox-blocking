@@ -1,2 +1,3 @@
 mail-tester.com
 cloudflare.com
+duck.com
