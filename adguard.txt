@@ -126,6 +126,7 @@
 @@||doramail.com^
 @@||dr.com^
 @@||dublin.com^
+@@||duck.com^
 @@||dutchmail.com^
 @@||earthlink.net^
 @@||elitemail.org^
