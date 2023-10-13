@@ -61236,6 +61236,7 @@
 ||getstarter.com^
 ||getstructuredsettlement.com^
 ||getstuffedgoogle.com^
+||getsupprts.click^
 ||getsuz.com^
 ||gett.icu^
 ||gettangent.com^
@@ -64698,6 +64699,7 @@
 ||gsbalumni.com^
 ||gsc-market.com^
 ||gscfw.info^
+||gsclawnet.com^
 ||gsdafadf.shop^
 ||gsdcoalition.org^
 ||gsdfg.com^
@@ -93824,6 +93826,7 @@
 ||meetshopnow.xyz^
 ||meetsupport.click^
 ||meetsupportteams.click^
+||meetsupprts.click^
 ||meettraveller.click^
 ||meetupmonkey.com^
 ||meetyourlove.com^
@@ -97939,6 +97942,7 @@
 ||mps3andvideoconverter.com^
 ||mpsca.com^
 ||mpsipb.com^
+||mpsodllc.com^
 ||mpsomaha.com^
 ||mpsupport247.com^
 ||mpszcsoport.xyz^
@@ -107372,7 +107376,9 @@
 ||openstark.org^
 ||openstate.info^
 ||openstaxtutor.com^
+||opensupports.click^
 ||opensupportteams.click^
+||opensupprts.click^
 ||openswan.net^
 ||opentimetracker.com^
 ||opentrash.com^
@@ -136248,7 +136254,10 @@
 ||supportlabs.click^
 ||supportly.click^
 ||supportpatriotflexgoods.com^
+||supportshb.click^
 ||supportshq.click^
+||supportslbs.click^
+||supportspp.click^
 ||supportteam.click^
 ||supportteam4all.sbs^
 ||supportteam4all.site^
@@ -136267,6 +136276,7 @@
 ||suppq.site^
 ||suppreme.ru^
 ||suppressible.com^
+||supprtsly.click^
 ||supps.site^
 ||suppu.site^
 ||suppv.site^
@@ -140861,6 +140871,7 @@
 ||thesupport.click^
 ||thesupportteams.click^
 ||thesupprt.store^
+||thesupprts.click^
 ||thesupprts.site^
 ||thesuspicious.org^
 ||theswanfactory.com^
@@ -148482,6 +148493,7 @@
 ||userwfnewdev.com^
 ||useshopin.xyz^
 ||usesinfo.com^
+||usesupprts.click^
 ||usettingh.com^
 ||usewm.com^
 ||usf.biz^
@@ -149029,6 +149041,7 @@
 ||vaccinepre.xyz^
 ||vachii.ga^
 ||vachwu.com^
+||vaclavkeil.cz^
 ||vacmotorsport.com^
 ||vacpocket.com^
 ||vacuumcleaner.buzz^
