@@ -16,7 +16,9 @@
 @@||420blaze.it^
 @@||4email.net^
 @@||50mail.com^
+@@||8alias.com^
 @@||8chan.co^
+@@||8shield.net^
 @@||aaathats3as.com^
 @@||accountant.com^
 @@||acdcfan.com^
@@ -126,6 +128,7 @@
 @@||doglover.com^
 @@||doramail.com^
 @@||dr.com^
+@@||dralias.com^
 @@||dublin.com^
 @@||duck.com^
 @@||dutchmail.com^
@@ -434,9 +437,12 @@
 @@||shitposting.agency^
 @@||shitware.nl^
 @@||sibmail.com^
+@@||simplelogin.fr^
+@@||simplelogin.io^
 @@||sina.com^
 @@||sky.com^
 @@||skynet.be^
+@@||slmail.me^
 @@||snakebite.com^
 @@||sneakemail.com^
 @@||snkmail.com^
@@ -9149,7 +9155,6 @@
 ||8a818.club^
 ||8a9itx.online^
 ||8aj.net^
-||8alias.com^
 ||8americain.fr^
 ||8angue9wtjv4dwa9.com^
 ||8avz.net^
@@ -9291,7 +9296,6 @@
 ||8rskf3xpyq.ml^
 ||8rskf3xpyq.tk^
 ||8rygn.com^
-||8shield.net^
 ||8t0sznngp6aowxsrj.cf^
 ||8t0sznngp6aowxsrj.ga^
 ||8t0sznngp6aowxsrj.gq^
@@ -9816,7 +9820,6 @@
 ||98auqbfn.tk^
 ||98bdii.site^
 ||98cfc72.club^
-||98g.mail.com^
 ||98gmail.com^
 ||98hg.app^
 ||98hg.bet^
@@ -20598,7 +20601,6 @@
 ||bachpanglobal.com^
 ||bachuem.com^
 ||bachus-dava.com^
-||bacillation.slmail.me^
 ||bacillsagc.space^
 ||bacinj.com^
 ||back-painsos.org^
@@ -21606,7 +21608,6 @@
 ||barotir.xyz^
 ||barping.asia^
 ||barrabravaz.com^
-||barracuda.8shield.net^
 ||barrelglass.ru^
 ||barretodrums.com^
 ||barrettmail.xyz^
@@ -30062,6 +30063,8 @@
 ||bwwsrvvff3wrmctx.tk^
 ||bwww.icu^
 ||bwyv.com^
+||bwzemail.eu^
+||bwzemail.xyz^
 ||bx6r9q41bciv.cf^
 ||bx6r9q41bciv.ga^
 ||bx6r9q41bciv.gq^
@@ -46198,7 +46201,6 @@
 ||dpm5g8.us^
 ||dpmchqfi.shop^
 ||dpmcinternational.com^
-||dpmtunnel.slmail.me^
 ||dpmwybaff.shop^
 ||dpnf.us^
 ||dpnwoyov.shop^
@@ -46324,7 +46326,6 @@
 ||drakor.pro^
 ||drakorfor.me^
 ||draktar.online^
-||dralias.com^
 ||dralselahi.com^
 ||dram.network^
 ||drama.tw^
@@ -57658,7 +57659,6 @@
 ||foxgroups.xyz^
 ||foxhaq.site^
 ||foxhawks.com^
-||foxieblu.slmail.me^
 ||foxiomail.com^
 ||foxja.com^
 ||foxkingdom.ru^
@@ -59449,7 +59449,6 @@
 ||g.gsasearchengineranker.space^
 ||g.hamsterbreeeding.com^
 ||g.hmail.us^
-||g.mail.com^
 ||g.polosburberry.com^
 ||g.seoestore.us^
 ||g.sportwatch.website^
@@ -63884,6 +63883,8 @@
 ||gp9ghb.us^
 ||gpa.lu^
 ||gpaemail.in^
+||gpaemail.top^
+||gpaemail.xyz^
 ||gpapa.ooo^
 ||gpappsz.com^
 ||gpcharlie.com^
@@ -79374,6 +79375,7 @@
 ||jwoug2rht98plm3ce.tk^
 ||jwoxy.com^
 ||jwpemail.in^
+||jwpemail.top^
 ||jwptesiiv.shop^
 ||jwpwnzobs.shop^
 ||jwrtfm.net^
@@ -92166,7 +92168,6 @@
 ||maqus-opl.best^
 ||mar-lacpharmacy.com^
 ||mar-notification.com^
-||mar.slmail.me^
 ||mara.jessica.webmailious.top^
 ||marabalan.cf^
 ||marabalan.ga^
@@ -92194,6 +92195,7 @@
 ||marbau-hydro.pl^
 ||marbellaimpulsa.com^
 ||marbleorbmail.bid^
+||marbuloh.com^
 ||marcachis.info^
 ||marcasvq.es^
 ||marcb.com^
@@ -104453,7 +104455,6 @@
 ||nukahome.com^
 ||nuke.africa^
 ||nukemc.biz^
-||nul.slmail.me^
 ||nuliferecords.com^
 ||nuligepe.site^
 ||null.0xf.uk^
@@ -130128,8 +130129,6 @@
 ||simplelifetimeincome.com^
 ||simplelifthub.com^
 ||simplelogin.co^
-||simplelogin.fr^
-||simplelogin.io^
 ||simplemail.in^
 ||simplemail.top^
 ||simplemailserver.bid^
@@ -131136,7 +131135,6 @@
 ||slkdjf.com^
 ||slkfewkkfgt.pl^
 ||slkjghsx77sx.ru^
-||slmail.me^
 ||slmshf.cf^
 ||slmtracker.com^
 ||sln-tech.info^
@@ -147433,7 +147431,6 @@
 ||um0vwn.us^
 ||um2dq7.us^
 ||um85.com^
-||uma.slmail.me^
 ||uma3.be^
 ||umaasa.com^
 ||umail.net^
