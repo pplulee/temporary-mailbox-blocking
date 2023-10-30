@@ -37,6 +37,7 @@ alumni.com
 alumnidirector.com
 amorki.pl
 angelic.com
+angi.com
 antichef.com
 antichef.net
 aol.co.uk
@@ -82,6 +83,7 @@ californiamail.com
 caramail.com
 cash4u.com
 catlover.com
+cbamboo.com
 centurytel.net
 charter.net
 cheerful.com
@@ -152,7 +154,6 @@ example.net
 example.org
 exclusivemail.co.za
 execs.com
-executive.co.za
 f-m.fm
 facebook.com
 fast-email.com
@@ -394,6 +395,7 @@ protestant.com
 protonmail.ch
 protonmail.com
 publicist.com
+purple.dev
 qq.com
 qualityservice.com
 radiologist.net
