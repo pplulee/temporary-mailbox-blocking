@@ -3,6 +3,7 @@ import threading
 import time
 
 import requests
+import toml
 
 
 def process_line(line):
@@ -62,12 +63,7 @@ def process_rules(session, rule_sources, rule_type, lists):
 if __name__ == "__main__":
     print("Start generating rules...\n\n")
     start_time = time.time()
-    try:
-        with open('config.json', 'r', encoding='utf-8') as config_file:
-            config = json.load(config_file)
-    except FileNotFoundError:
-        print("config.json not found")
-        exit()
+    config = toml.load("config.toml")
 
     allow_list = set()
     deny_list = set()
@@ -83,7 +79,7 @@ if __name__ == "__main__":
     print(f"{len(deny_list)} deny rules")
 
     # Output to file
-    if "outputTXT" in config.keys():
+    if config['outputTXT']['enable']:
         with open(config["outputTXT"]["allow"], 'w', encoding='utf-8') as allow_file, \
                 open(config["outputTXT"]["deny"], 'w', encoding='utf-8') as deny_file:
             print(f"Output allow list to {config['outputTXT']['allow']}")
@@ -93,7 +89,7 @@ if __name__ == "__main__":
             for line in deny_list:
                 deny_file.write(line + '\n')
 
-    if "outputJson" in config.keys():
+    if config['outputJson']['enable']:
         with open(config["outputJson"]["allow"], 'w', encoding='utf-8') as allow_file, \
                 open(config["outputJson"]["deny"], 'w', encoding='utf-8') as deny_file:
             print(f"Output allow list to {config['outputJson']['allow']}")
@@ -101,9 +97,9 @@ if __name__ == "__main__":
             json.dump(list(allow_list), allow_file)
             json.dump(list(deny_list), deny_file)
 
-    if "outputAdGuard" in config.keys():
-        with open(config["outputAdGuard"], 'w', encoding='utf-8') as output_file:
-            print(f"Output AdGuard rules to {config['outputAdGuard']}")
+    if config['outputAdGuard']['enable']:
+        with open(config["outputAdGuard"]['file'], 'w', encoding='utf-8') as output_file:
+            print(f"Output AdGuard rules to {config['outputAdGuard']['file']}")
             for line in allow_list:
                 output_file.write(f"@@||{line}^\n")
             for line in deny_list:

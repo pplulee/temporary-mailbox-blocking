@@ -1,0 +1,18 @@
+allowFile = ["allow_list.txt"]
+allowURL = ["https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/allowDomains.txt"]
+denyFile = ["block_list.txt"]
+denyURL = ["https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/denyDomains.txt"]
+
+[outputTXT]
+enable = false
+allow = "allow.txt"
+deny = "deny.txt"
+
+[outputJson]
+enable = false
+allow = "allow.json"
+deny = "deny.json"
+
+[outputAdGuard]
+enable = true
+file = "adguard.txt"

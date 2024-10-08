@@ -22,44 +22,10 @@ We provide a variety of formats, you just need to choose what you want.
 
 # How to deploy it yourself?
 
-If you want to deploy it yourself, it is not a difficult thing. Simply clone this repository, the example
-of `config.json` is here:
-
-```json
-{
-  "allowFile": [
-    "local_allow1.txt",
-    "local_allow2.txt"
-  ],
-  "allowURL": [
-    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/allowDomains.txt"
-  ],
-  "denyFile": [
-    "local_block1.txt",
-    "local_block2.txt"
-  ],
-  "denyURL": [
-    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/denyDomains.txt"
-  ],
-  "outputTXT": {
-    "allow": "allow.txt",
-    "deny": "deny.txt"
-  },
-  "outputJson": {
-    "allow": "allow.json",
-    "deny": "deny.json"
-  },
-  "outputAdGuard": "adguard.txt"
-}
-```
+If you want to deploy it yourself, it is not a difficult thing. Simply clone this repository and modify configuration.
 
 Just add the URL or file that you wish to use, set the output file name, and then run `python3 generate.py` to generate
 the file.
-
-If a certain output format is not necessary for you, you can simply delete the corresponding section.
-For example, if you don't need to generate Json output, you can delete the whole `outputJson` section.
-
-The same is true for the list above. If you don't need it, don't add it.
 
 **Please note that the program can only recognize plain text format and does not support reading json**
 
@@ -74,5 +40,3 @@ If you have any suggestions or questions, please submit an issue.
 The rules preset by the program come from the following repositories:
 
 - [amieiro/disposable-email-domains](https://github.com/amieiro/disposable-email-domains) 
-
-

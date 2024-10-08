@@ -16,41 +16,9 @@
 
 # 如何自行部署？
 
-自行部署并不困难，只需要克隆这个仓库，`config.json`的示例在这里：
-
-```json
-{
-  "allowFile": [
-    "local_allow1.txt",
-    "local_allow2.txt"
-  ],
-  "allowURL": [
-    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/allowDomains.txt"
-  ],
-  "denyFile": [
-    "local_block1.txt",
-    "local_block2.txt"
-  ],
-  "denyURL": [
-    "https://raw.githubusercontent.com/amieiro/disposable-email-domains/master/denyDomains.txt"
-  ],
-  "outputTXT": {
-    "allow": "allow.txt",
-    "deny": "deny.txt"
-  },
-  "outputJson": {
-    "allow": "allow.json",
-    "deny": "deny.json"
-  },
-  "outputAdGuard": "adguard.txt"
-}
-```
+自行部署并不困难，只需要克隆这个仓库并修改配置即可。
 
 您只需要添加需要使用的URL或文件，设置输出文件名，并运行`python3 generate.py` 即可生成规则文件。
-
-如果您不需要某种输出格式，可以直接删除相应的部分。例如，如果您不需要生成Json输出，则可以删除整个`outputJson`部分。
-
-同样，如果您不需要使用某些URL或文件，不添加即可。
 
 **请注意，程序只能识别纯文本格式，并不支持读取Json格式文件。**
 
@@ -65,5 +33,3 @@
 程序预设的规则来自以下仓库：
 
 - [amieiro/disposable-email-domains](https://github.com/amieiro/disposable-email-domains) 
-
-
