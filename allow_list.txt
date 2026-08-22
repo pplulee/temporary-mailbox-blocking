@@ -1,0 +1,7 @@
+mail-tester.com
+cloudflare.com
+189.cn
+zoho.com
+qq.com
+gmail.com
+outlook.com
