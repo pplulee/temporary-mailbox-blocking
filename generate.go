@@ -206,13 +206,28 @@ func processLine(line string) (string, bool) {
 
 func removeOverlaps(denyList, allowList map[string]struct{}) int {
 	removed := 0
-	for rule := range allowList {
-		if _, ok := denyList[rule]; ok {
+	for rule := range denyList {
+		if coveredBy(rule, allowList) {
 			delete(denyList, rule)
 			removed++
 		}
 	}
 	return removed
+}
+
+func coveredBy(domain string, list map[string]struct{}) bool {
+	if _, ok := list[domain]; ok {
+		return true
+	}
+	for i := 0; i < len(domain); i++ {
+		if domain[i] != '.' {
+			continue
+		}
+		if _, ok := list[domain[i+1:]]; ok {
+			return true
+		}
+	}
+	return false
 }
 
 func sortedRules(rules map[string]struct{}) []string {
